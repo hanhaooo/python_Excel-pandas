@@ -17,9 +17,6 @@ def sheet_clear_dup(code,sheet):
         print(f'发生意外错误，请重新检查文件:{e}')
         return None,None
     
-data = pd.read_excel(r"c:\Users\hanfu\Desktop\practice\数据源\班级人员.xlsx")
-data_dup,data_clear = sheet_clear_dup('姓名',data)
-print(data_clear)
     
             
 
