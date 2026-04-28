@@ -15,10 +15,5 @@ def match_tables(table_left,table_right,code):
         print(f'出现错误:{e}')
         return None,None,None
     
-file1 = pd.read_excel(r"c:\Users\hanfu\Desktop\practice\数据源\班级人员.xlsx")
-file2 = pd.read_excel(r"c:\Users\hanfu\Desktop\practice\数据源\班级人员匹配.xlsx")
-code = '学号'
-m_file,um01,um02 = match_tables(file1,file2,code)
-print(m_file,"\n")
-print(um01)
+
 
